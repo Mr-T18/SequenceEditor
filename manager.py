@@ -202,7 +202,7 @@ class Manager:
                             str(step.duty),
                             str(step.timeout),
                             str(step.dir),
-                            str(step.target),
+                            str(step.target) if step.target != -1 else "n",
                         ]
                         parts.append(",".join(step_parts))
 
