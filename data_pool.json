@@ -1,0 +1,138 @@
+{
+    "motors": [
+        {
+            "name": "test1",
+            "canID": 1
+        },
+        {
+            "name": "test2",
+            "canID": 2
+        },
+        {
+            "name": "aaa",
+            "canID": 7
+        }
+    ],
+    "sequences": [
+        {
+            "name": "test11",
+            "steps": [
+                [
+                    {
+                        "motor": "test2",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ],
+                [
+                    {
+                        "motor": "test1",
+                        "dir": 1,
+                        "duty": 30,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ],
+                [
+                    {
+                        "motor": "test1",
+                        "dir": 1,
+                        "duty": 55,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ],
+                [
+                    {
+                        "motor": "aaa",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ],
+                [
+                    {
+                        "motor": "test2",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    },
+                    {
+                        "motor": "test1",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    },
+                    {
+                        "motor": "aaa",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ],
+                [
+                    {
+                        "motor": "aaa",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ],
+                [
+                    {
+                        "motor": "aaa",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ],
+                [
+                    {
+                        "motor": "aaa",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ],
+                [
+                    {
+                        "motor": "aaa",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ],
+                [
+                    {
+                        "motor": "aaa",
+                        "dir": 1,
+                        "duty": 100,
+                        "timeout": 1000,
+                        "target": -1
+                    }
+                ]
+            ]
+        }
+    ],
+    "slots": {
+        "1": "test11",
+        "2": "None",
+        "3": "None",
+        "4": "None",
+        "5": "None",
+        "6": "None",
+        "7": "None",
+        "8": "None",
+        "9": "None"
+    }
+}
